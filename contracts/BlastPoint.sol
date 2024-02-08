@@ -57,7 +57,7 @@ contract BlastPoint is ERC404 {
             string memory jsonPreImage = string.concat(
                 string.concat(
                     string.concat('{"name": "BlastPoint #', Strings.toString(id)),
-                    '","description":"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.","external_url":"https://blastpoint.joyclub.tech","image":"'
+                    '","description":"A collection of 10,000 Replicants enabled by ERC404, an experimental token standard.","external_url":"https://bp.joyclub.tech","image":"'
                 ),
                 string.concat(dataURI, image)
             );
